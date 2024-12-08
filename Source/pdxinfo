@@ -1,0 +1,7 @@
+name=Kazoku
+author=pepsiman
+description=Oh yeah, Kazoku, the game!
+bundleID=com.test.BasicProjectStructure
+version=1.0
+buildNumber=1
+imagePath=SystemAssets
