@@ -1,13 +1,11 @@
 TITLE_SCREEN = 'TitleScreen'
 
+-- This should extend from pd.gfx.sprite I think
 class(TITLE_SCREEN).extends(Screen)
 
 
 local pd = playdate
 local gfx = pd.graphics
-
-
--- Screen lifecycle
 
 function TitleScreen:init()
     TitleScreen.super.init(self)

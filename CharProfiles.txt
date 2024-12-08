@@ -1,0 +1,47 @@
+﻿The Father:
+The father, like any good father, is a piece of crap. Tired of the 8-hour workdays, underpaid jobs, and covering the unexpected expenses of his cheating wife and senile mother-in-law—along with his monthly spending on alcohol, tobacco, and hookers—he limits himself daily to coming home, thinking for a few minutes about how shitty his life is as he takes off his shoes, and then heading to watch football on TV. The father is easily irritated, and the ‘love’ he has for his kids is somewhat questionable—at least judging by the way he constantly ignores them and seems more at peace when no one talks to him or asks him stupid questions.
+Disheveled in appearance, with poor hygiene and a habit of always wearing the same worn-out, stained, and faded clothes, he is the stereotypical father of a working-class, lower-middle-income family, always with a beer can in hand. He is the most robust character but also the least agile and the slowest. In gameplay, his movements are methodical and relatively easy to memorize, albeit slow, but every hit he delivers is relatively strong.
+Key traits:
+* Fat/robust appearance.
+* Dirty/disheveled.
+* Indifferent to everything.
+* Likely works as a mechanic, laborer, pizza maker, or any other low-ranking physical job.
+* Spends all his money keeping his family just above poverty while blowing the rest on alcohol, tobacco, and hookers.
+* Easily irritated, especially when people around him start asking for favors or material things.
+________________
+
+
+The Mother:
+The mother, a veteran in her 40s, is the product of a semi-failed life project. Married out of necessity to a violent, unremarkable laborer, she loves her kids but is also easily irritated—mostly due to the aftermath of a miserable life. Constantly trapped and unable to enjoy material pleasures because she lacks paid work, she decided sometime in her 30s to give up on any hope or personal projects to dedicate herself to being a housewife, raising her children as best as she could based on her beliefs, and accepting the reality of living off her husband’s income.
+She buries thoughts of any promising past in the meals she prepares and pushes through the bitterness of having to do the dishes. At her age, she accepts any future that life may surprise her with (or not) and often loses control over the values and education of her children.
+She’s a balanced character—not as robust as the father but more agile and quicker. Her movement patterns are more complex, but her attacks are not as strong, giving the player some breathing room.
+Key traits:
+* Could be fat or skinny, depending on inspiration.
+* Exhausted by life, almost indifferent to whatever may happen to her in the short or long term.
+* Deep down, she’s gentle and understanding—or tries to be. But only deep down.
+* Loves her children, though she often takes out her rage, frustration, and impotence on them—baggage she’s carried since she transitioned from a potentially free woman to a slave of household chores and her stereotypical husband, who doesn’t give a damn.
+* Always dressed as a housewife, wearing aprons or casual home dresses. Possibly keeps her hair tied in a messy bun or short for convenience.
+* Naturally unpolished, with no need to display any luxury for anyone.
+________________
+
+
+The Sister:
+A hysterical teenager like any other, she doesn’t know what she wants, and when she wants something, she can’t get it. She’s not the prettiest nor the ugliest, not the smartest nor the dumbest. Between menstrual cramps and the pain from her braces (optional), she constantly wears a scowl. She does more or less what she wants within the financial limits of her average lower-middle-class family.
+She’d probably calm down if she got a boyfriend, but her shitty temper partly gets in the way. She has no problem resorting to violence against her younger brother (the player character), especially when he barges into her room, whether there’s a reason or not. She usually comes home from school, locks herself in her room, and listens to music. Her grades are as mediocre as they can get, but neither she nor her parents care, as long as she completes school on time and finds some mediocre job to eventually become independent.
+She’s the most agile character, moving very quickly. However, her attacks are the weakest. Her moveset is broad and quite random without being impossible to memorize. Her attacks are fast and often repetitive, leaving a narrow reaction window, but none of them are lethal.
+Key traits:
+* Skinny, not very tall, emphasizing her nimbleness.
+* Always angry, with a violent, aggressive personality.
+* Typical teenage traits: acne, braces, bracelets, punk band T-shirts, quickly-styled messy hair, piercings, eyeliner, etc.—all while showing she comes from a low-income family.
+________________
+
+
+The Grandma:
+The old lady is the last mob. She’s a quiet, tranquil-looking old woman with a constant, innocent smile. She’s practically ‘one step into the afterlife.’ Living with her daughter (the mother) and son-in-law (the father), she hardly knows she’s alive. Quiet and seemingly unbothered by anything, she spends her days sitting in her wheelchair. Nobody knows what she’s thinking (if she’s thinking at all). She doesn’t recognize anyone, doesn’t talk, doesn’t ask for anything, and doesn’t even know where or with whom she lives—she’s completely in another world.
+As the final playable character, she has no mobility (always in the center of the screen), but her silent wisdom, life experience, and years of introspection allow her to unleash devastating psychic attacks. Though her attacks aren’t the fastest (somewhere between the sister’s and the mother’s speed), they’re devastating, and their patterns are difficult to dodge.
+Key traits:
+* Could be fat or skinny, always in a rickety wheelchair.
+* Unchanging, innocent smile. Wears thick round glasses (like Muriel from Courage the Cowardly Dog or the old lady from Worms), obscuring her eyes. Could have short, unkempt hair, thinning hair, or wear an old-lady bonnet.
+* Typical old-lady clothes: sweater, woolen pants, or covered with a blanket in her chair. Could appear knitting or with sagging breasts.
+* Wrinkled and potentially warty.
+* Completely senile.
