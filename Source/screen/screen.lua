@@ -1,4 +1,4 @@
-class("Screen").extends()
+class("Screen").extends(playdate.graphics.sprite)
 
 function Screen:init()
 	Screen.super.init(self)

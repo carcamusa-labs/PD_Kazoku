@@ -15,8 +15,10 @@ import "screen/helper_functions/helpers"
 import "screen/menu_functions/menu_functions"
 import "screen/cutscene_manager/cutscene_manager"
 
-local pd = playdate
-local gfx = playdate.graphics
+local pd <const> = playdate
+local gfx <const> = pd.graphics
+local spr <const> = gfx.sprite
+local img <const> = gfx.image
 
 -- Game screen management
 
@@ -27,7 +29,7 @@ end
 
 function playdate.update()
     pd.timer.updateTimers()
-    gfx.sprite.update()
+    spr.update()
     global.currentScreen.update()
 end
 
