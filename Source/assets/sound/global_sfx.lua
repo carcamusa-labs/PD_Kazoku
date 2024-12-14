@@ -11,7 +11,7 @@ sfx = {
     end,
     
     playCancel = function ()
-        pdfxr.synth.new('assets/sound/fx/cancel3'):play()
+        pdfxr.synth.new('assets/sound/fx/wrong3'):play()
     end,
     
     playOptionSelect = function ()

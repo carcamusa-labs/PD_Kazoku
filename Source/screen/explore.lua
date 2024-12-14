@@ -31,11 +31,20 @@ end
 
 function ExploreScreen:update()
     Message.update()
+
+    aButtonPressed()
+    bButtonPressed()
 end
 
 
 function aButtonPressed()
+    if pd.buttonJustPressed(pd.kButtonA) then
+        sfx.playConfirm()
+    end
 end
 
 function bButtonPressed()
+    if pd.buttonJustPressed(pd.kButtonB) then
+        sfx.playCancel()
+    end
 end

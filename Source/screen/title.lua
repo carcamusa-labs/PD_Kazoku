@@ -55,5 +55,6 @@ function TitleScreen:update()
 
     if playdate.buttonJustReleased('a') then
         global.onChangeScreen(EXPLORE_SCREEN, 1)
+        sfx.playConfirm()
     end
 end
