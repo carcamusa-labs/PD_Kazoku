@@ -11,9 +11,9 @@ function global.onChangeScreen(targetScreen)
         if targetScreen == EXPLORE_SCREEN then
             global.currentScreen = ExploreScreen()
         elseif targetScreen == BATTLE_SCREEN then
-            global.currentScreen = BattleScreen(params)
+            global.currentScreen = BattleScreen()
         elseif targetScreen == TITLE_SCREEN then
-            global.currentScreen = TitleScreen(params)
+            global.currentScreen = TitleScreen()
         else
             print("Can't change to unknown screen: " .. targetScreen)
         end

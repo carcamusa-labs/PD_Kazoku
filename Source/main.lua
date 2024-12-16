@@ -8,6 +8,7 @@ import "assets/sound/global_sfx.lua"
 import "screen/common"
 import "./UI/message"
 import "./UI/choice"
+import "screen/splash"
 import "screen/explore"
 import "screen/title"
 import "screen/screen_manager/screen_manager"
@@ -23,7 +24,7 @@ local img <const> = gfx.image
 -- Game screen management
 
 function initGame()
-    global.currentScreen = TitleScreen()
+    global.currentScreen = SplashScreen()
     global.currentScreen.onAppear()
 end
 

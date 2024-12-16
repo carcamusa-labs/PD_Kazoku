@@ -16,6 +16,7 @@ gfx.setFontFamily(gfx.getFont(gfx.font.kVariantBold))
 
 -- Draws text on the image (empty so far)
 gfx.pushContext(titleScreenImage)
+clearScreen(gfx.kColorWhite)
 gfx.drawTextAligned("KAZOKU", 100, 60, kTextAlignment.center)
 gfx.popContext()
 
@@ -38,7 +39,6 @@ function TitleScreen:init()
     TitleScreen.super.init(self)
     
     titleScreenSprite:add()
-    -- titleScreenText:add()
 end
 
 function TitleScreen:onAppear()
@@ -54,7 +54,7 @@ function TitleScreen:update()
     showIntermitentTitleText()
 
     if playdate.buttonJustReleased('a') then
-        global.onChangeScreen(EXPLORE_SCREEN, 1)
+        global.onChangeScreen(EXPLORE_SCREEN)
         sfx.playConfirm()
     end
 end

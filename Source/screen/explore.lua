@@ -40,11 +40,13 @@ end
 function aButtonPressed()
     if pd.buttonJustPressed(pd.kButtonA) then
         sfx.playConfirm()
+        clearScreen(gfx.kColorWhite)
     end
 end
 
 function bButtonPressed()
     if pd.buttonJustPressed(pd.kButtonB) then
         sfx.playCancel()
+        clearScreen(gfx.kColorBlack)
     end
 end
