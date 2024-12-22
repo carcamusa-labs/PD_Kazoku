@@ -97,6 +97,7 @@ function Message.reset()
 end
 
 function Message.show(lines, title, callback)
+    -- Use a table {} to ennumerate several lines, separated by commas. Example: {"Hello", "How are you?"}
     Message.reset()
     textLines = lines
     if (title) then

@@ -30,13 +30,14 @@ function SplashScreen:init()
     clearScreen(gfx.kColorWhite)
     splashScreenSprite:add()
 
-    pd.timer.new(5000, function ()
+    -- Change back to 5000ms later, sped up for testing purposes
+    pd.timer.new(500, function ()
         global.onChangeScreen(TITLE_SCREEN)
     end)
 end
 
 function SplashScreen:onAppear()
-    
+
 end
 
 function SplashScreen:onDisappear()
@@ -44,5 +45,5 @@ function SplashScreen:onDisappear()
 end
 
 function SplashScreen:update()
-    -- Timer to change screen after x seconds
+
 end

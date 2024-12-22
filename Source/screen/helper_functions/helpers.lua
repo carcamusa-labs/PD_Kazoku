@@ -1,7 +1,7 @@
 
 function parseJsonToTable(path)
     jsonContent = json.decodeFile(path)
-    -- print(json.encodePretty(jsonContent))
+    print(json.encodePretty(jsonContent))
     return jsonContent
 end
 

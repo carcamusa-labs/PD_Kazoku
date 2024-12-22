@@ -5,12 +5,15 @@ import "CoreLibs/timer"
 
 import "assets/sound/pdfxr.lua"
 import "assets/sound/global_sfx.lua"
+import "assets/data/screens/cutscene_dialogs"
+import "assets/data/screens/battle_screens_data"
 import "screen/common"
 import "./UI/message"
 import "./UI/choice"
 import "screen/splash"
-import "screen/explore"
+import "screen/opening_cutscene"
 import "screen/title"
+import "screen/battle_screen"
 import "screen/screen_manager/screen_manager"
 import "screen/helper_functions/helpers"
 import "screen/menu_functions/menu_functions"
@@ -24,7 +27,7 @@ local img <const> = gfx.image
 -- Game screen management
 
 function initGame()
-    global.currentScreen = SplashScreen()
+    global.currentScreen = OpeningCutsceneScreen()
     global.currentScreen.onAppear()
 end
 

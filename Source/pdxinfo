@@ -1,7 +1,10 @@
 name=Kazoku
-author=pepsiman
+author=Carcamusa Labs
 description=Oh yeah, Kazoku, the game!
 bundleID=com.test.BasicProjectStructure
 version=1.0
 buildNumber=1
 imagePath=SystemAssets
+launchSoundPath=path/to/launch/sound/file
+contentWarning=This game contains mild violence and usage of strong language.
+contentWarning2=This game contains heavily packed high-octane action, and probably some of the best music ever in a Playdate game.

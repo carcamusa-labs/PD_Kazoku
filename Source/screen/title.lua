@@ -10,7 +10,7 @@ local img <const> = gfx.image
 
 local titleScreenSprite = spr.new()
 local titleScreenImage = img.new(200, 120)
-local titleScreenText = spr.spriteWithText("Press A to start", 400, 240)
+local titleScreenText = spr.spriteWithText("Press Ⓐ to start", 400, 240)
 
 gfx.setFontFamily(gfx.getFont(gfx.font.kVariantBold))
 
@@ -54,7 +54,7 @@ function TitleScreen:update()
     showIntermitentTitleText()
 
     if playdate.buttonJustReleased('a') then
-        global.onChangeScreen(EXPLORE_SCREEN)
+        global.onChangeScreen(OPENING_CUTSCENE_SCREEN)
         sfx.playConfirm()
     end
 end
