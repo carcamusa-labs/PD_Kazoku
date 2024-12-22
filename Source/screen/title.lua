@@ -9,18 +9,18 @@ local spr <const> = gfx.sprite
 local img <const> = gfx.image
 
 local titleScreenSprite = spr.new()
-local titleScreenImage = img.new(200, 120)
+local titleScreenImg = img.new(200, 120)
 local titleScreenText = spr.spriteWithText("Press Ⓐ to start", 400, 240)
 
 gfx.setFontFamily(gfx.getFont(gfx.font.kVariantBold))
 
 -- Draws text on the image (empty so far)
-gfx.pushContext(titleScreenImage)
+gfx.pushContext(titleScreenImg)
 clearScreen(gfx.kColorWhite)
 gfx.drawTextAligned("KAZOKU", 100, 60, kTextAlignment.center)
 gfx.popContext()
 
-titleScreenSprite:setImage(titleScreenImage:scaledImage(4))
+titleScreenSprite:setImage(titleScreenImg:scaledImage(4))
 titleScreenSprite:moveTo(200, 80)
 titleScreenText:moveTo(200, 170)
 

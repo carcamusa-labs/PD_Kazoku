@@ -20,15 +20,32 @@ end
 function BattleScreen:init(params)
 	BattleScreen.super.init(self)
 
-    drawBackground("assets/img/characters/father", gfx.kColorBlack)
+    local currentScreenData = screensData[params]
+
+    drawBackground(currentScreenData.bgImg, gfx.kColorBlack)
 
     -- Load father's dialogue here
-    -- Change timer to 2000 later
+    -- Change timer to 2000 and 1000 respectively later
     pd.timer.new(100, function ()
         Message.show(--[[globalCutsceneDialogs.fatherDialogStart]] {"TEST MESSAGE"}, "Father", function ()
-            pd.timer.new(1000, function ()
+            pd.timer.new(100, function ()
                 -- Starts and instantiates battle mode, sprites, movement and everything
-                print(screensData[params].testPrintDialog)
+
+                -- All of this initializes a 'ready' screen with text
+                local readyScreenSprite = spr.new()
+                local readyScreenImg = img.new(200, 120)
+                local readyScreenText = "Stage 1 - 'THE FATHER'"
+                local startText = "START!"
+
+                gfx.pushContext(readyScreenImg)
+                clearScreen(gfx.kColorBlack)
+                gfx.drawTextAligned(readyScreenText, 100, 40, kTextAlignment.center)
+                gfx.drawTextAligned(startText, 100, 80, kTextAlignment.center)
+                gfx.popContext()
+
+                readyScreenSprite:setImage(readyScreenImg:scaledImage(2))
+                readyScreenSprite:moveTo(200, 120)
+                readyScreenSprite:add()
             end)
         end)
     end)
