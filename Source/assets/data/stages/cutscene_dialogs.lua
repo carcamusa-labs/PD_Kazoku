@@ -1,7 +1,6 @@
-
 -- List of dialog lines used in the Story:
 
-globalCutsceneDialogs = {
+cutsceneDialogs = {
     openingCutscene = {
         "It was just another 'normal day',",
         "in a 'normal' house,",
@@ -23,13 +22,30 @@ globalCutsceneDialogs = {
         "You asked for a Playdate..."
     },
 
-    fatherDialogStart = {
+    -- Stage 1 - 'THE FATHER'
+    stage1 = {
         "So you say you want a Gaydate, boy?",
         "But do you deserve it?",
         "I work like a dog to bring food to the table!",
         "but you don't even care, right!?",
         "It's always all about you, I always have to",
         "put up with you and your sister's bullshit!",
-        "You two have me ticked the fuck off, now you'll see!"
+        "You two have me ticked the fuck off,",
+        "now you'll see!"
+    },
+    
+    -- Stage 2 - 'THE MOTHER'
+    stage2 = {
+        "Hello it's the neglected bimbo milf!",
+    },
+    
+    -- Stage 3 - 'THE SISTER'
+    stage3 = {
+        "",
+    },
+    
+    -- Stage 4 - 'THE GRANDMA'
+    stage4 = {
+        "",
     }
 }

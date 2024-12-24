@@ -8,8 +8,8 @@ import "CoreLibs/timer"
 import "core_logic/game_states"
 import "assets/sound/pdfxr.lua"
 import "assets/sound/global_sfx.lua"
-import "assets/data/screens/cutscene_dialogs"
-import "assets/data/screens/battle_screens_data"
+import "assets/data/stages/cutscene_dialogs"
+import "assets/data/stages/battle_stages_data"
 
 -- Screen script and UI imports
 import "./UI/message"

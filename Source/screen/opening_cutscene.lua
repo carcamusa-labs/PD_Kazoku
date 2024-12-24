@@ -25,10 +25,10 @@ function OpeningCutsceneScreen:init()
     -- Attempts to add some time prior to the dialog box, and prior to changing to the next screen
     -- Change timer to 2000 later
     pd.timer.new(100, function ()
-        Message.show(--[[globalCutsceneDialogs.openingCutscene]] {"TEST MESSAGE"}, "Message", function ()
+        Message.show(--[[cutsceneDialogs.openingCutscene]] {"TEST MESSAGE"}, "Message", function ()
             pd.timer.new(1000, function ()
                 -- Change to battle screen 1, father
-                global.onChangeScreen(BATTLE_SCREEN, 'screen1')
+                global.onChangeScreen(BATTLE_SCREEN, 'stage2')
             end)
         end)
     end)
