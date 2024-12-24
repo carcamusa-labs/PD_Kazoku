@@ -1,19 +1,12 @@
 BATTLE_SCREEN = "BattleScreen"
 
-class(BATTLE_SCREEN).extends(Screen)
-
 local pd <const> = playdate
 local gfx <const> = pd.graphics
 local spr <const> = gfx.sprite
 local img <const> = gfx.image
 
-function openDialog()
-    isDialogOpen = true
-end
+class(BATTLE_SCREEN).extends(Screen)
 
-function endDialog()
-    isDialogOpen = false
-end
 
 -- Screen lifecycle
 -- Takes param from data/screens/battle_screens_data (screen1, screen2, etc)
@@ -32,8 +25,8 @@ function BattleScreen:init(params)
                 -- Starts and instantiates battle mode, sprites, movement and everything
 
                 -- All of this initializes a 'ready' screen with text
-                local readyScreenSprite = spr.new()
                 local readyScreenImg = img.new(200, 120)
+                local readyScreenSprite = spr.new()
                 local readyScreenText = "Stage 1 - 'THE FATHER'"
                 local startText = "START!"
 
@@ -46,6 +39,13 @@ function BattleScreen:init(params)
                 readyScreenSprite:setImage(readyScreenImg:scaledImage(2))
                 readyScreenSprite:moveTo(200, 120)
                 readyScreenSprite:add()
+                -------------------------------------------------------
+
+                pd.timer.new(2000, function ()
+                    clearScreen(gfx.kColorBlack)
+                    readyScreenSprite:remove()
+                    Player(PLAYER_INIT_X, PLAYER_INIT_Y)
+                end)
             end)
         end)
     end)
@@ -60,17 +60,7 @@ end
 function BattleScreen:update()
     Message.update()
 
+    handleMovement()
     aButtonPressed()
     bButtonPressed()
-end
-
-
-function aButtonPressed()
-    if pd.buttonJustPressed(pd.kButtonA) then
-    end
-end
-
-function bButtonPressed()
-    if pd.buttonJustPressed(pd.kButtonB) then
-    end
 end

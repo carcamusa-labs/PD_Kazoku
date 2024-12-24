@@ -1,11 +1,12 @@
 OPENING_CUTSCENE_SCREEN = 'OpeningCutsceneScreen'
 
-class(OPENING_CUTSCENE_SCREEN).extends(Screen)
-
 local pd <const> = playdate
 local gfx <const> = pd.graphics
 local spr <const> = gfx.sprite
 local img <const> = gfx.image
+
+class(OPENING_CUTSCENE_SCREEN).extends(Screen)
+
 
 -- function openDialog()
 --     isDialogOpen = true
@@ -42,17 +43,6 @@ end
 function OpeningCutsceneScreen:update()
     Message.update()
 
-    -- aButtonPressed()
-    -- bButtonPressed()
+    aButtonPressed()
+    bButtonPressed()
 end
-
-
--- function aButtonPressed()
---     if pd.buttonJustPressed(pd.kButtonA) then
---     end
--- end
-
--- function bButtonPressed()
---     if pd.buttonJustPressed(pd.kButtonB) then
---     end
--- end
