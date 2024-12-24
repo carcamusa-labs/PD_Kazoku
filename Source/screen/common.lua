@@ -147,15 +147,15 @@ end
 
 function aButtonPressed()
     if pd.buttonJustPressed(pd.kButtonA) then
-			if GAMEMODE == 0 then
-				print("A - Nothing happens, game in cutscene mode")
-			end
+		if GAMEMODE == 0 then
+			print("A - Nothing happens, game in cutscene mode")
+		end
 
-			if GAMEMODE == 1 then
-				if PLAYER_CAN_ATTACK then
-					print("Punch!")
-				end
+		if GAMEMODE == 1 then
+			if PLAYER_CAN_ATTACK then
+				print("Punch!")
 			end
+		end
 	end
 end
 
