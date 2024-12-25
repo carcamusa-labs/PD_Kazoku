@@ -43,6 +43,8 @@ function BattleScreen:init(params)
                 pd.timer.new(2000, function ()
                     clearScreen(gfx.kColorBlack)
                     stageReadySpr:remove()
+
+                    currentStageData.drawCollisions()
                     Player(PLAYER_INIT_X, PLAYER_INIT_Y)
                 end)
             end)
