@@ -44,7 +44,7 @@ function BattleScreen:init(params)
                     clearScreen(gfx.kColorBlack)
                     stageReadySpr:remove()
 
-                    currentStageData.drawCollisions()
+                    currentStageData.drawSpecificCollisions()
                     Player(PLAYER_INIT_X, PLAYER_INIT_Y)
                 end)
             end)

@@ -7,7 +7,7 @@ local img <const> = gfx.image
 
 stagesData = {
     startText = "START!",
-    drawScreenCollisionMargins = function ()
+    drawGeneralCollisionMargins = function ()
         local marginUp = img.new(400, 2, gfx.kColorWhite)
         local marginDown = img.new(400, 2, gfx.kColorWhite)
         local marginLeft = img.new(2, 240, gfx.kColorWhite)
@@ -24,10 +24,10 @@ stagesData = {
         marginDownSpr:setTag(0)
         marginLeftSpr:setTag(0)
         marginRightSpr:setTag(0)
-        marginUpSpr:setTag(0)
-        marginDownSpr:setTag(0)
-        marginLeftSpr:setTag(0)
-        marginRightSpr:setTag(0)
+        marginUpSpr:add()
+        marginDownSpr:add()
+        marginLeftSpr:add()
+        marginRightSpr:add()
 
         print("Collision margins drawn")
     end,
@@ -37,8 +37,8 @@ stagesData = {
         bgImg = "",
         bgm = "",
         enemy = "Father",
-        drawCollisions = function ()
-            stagesData.drawScreenCollisionMargins()
+        drawSpecificCollisions = function ()
+            stagesData.drawGeneralCollisionMargins()
 
             print("------------------------")
             print("Stage 1 collisions drawn")
@@ -51,8 +51,8 @@ stagesData = {
         bgImg = "",
         bgm = "",
         enemy = "Mother",
-        drawCollisions = function ()
-            stagesData.drawScreenCollisionMargins()
+        drawSpecificCollisions = function ()
+            stagesData.drawGeneralCollisionMargins()
 
             print("------------------------")
             print("Stage 2 collisions drawn")
@@ -65,8 +65,8 @@ stagesData = {
         bgImg = "",
         bgm = "",
         enemy = "Sister",
-        drawCollisions = function ()
-            stagesData.drawScreenCollisionMargins()
+        drawSpecificCollisions = function ()
+            stagesData.drawGeneralCollisionMargins()
 
             print("------------------------")
             print("Stage 3 collisions drawn")
@@ -79,8 +79,8 @@ stagesData = {
         bgImg = "",
         bgm = "",
         enemy = "Grandma",
-        drawCollisions = function ()
-            stagesData.drawScreenCollisionMargins()
+        drawSpecificCollisions = function ()
+            stagesData.drawGeneralCollisionMargins()
 
             print("------------------------")
             print("Stage 4 collisions drawn")
